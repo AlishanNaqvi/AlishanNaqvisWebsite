@@ -88,6 +88,15 @@ export default function SkillsSection() {
               </div>
             </CardContent>
           </Card>
+          <Card>
+            <CardContent className="flex items-center gap-4 p-6">
+              <GraduationCap className="w-8 h-8" />
+              <div>
+                <h3 className="text-xl font-semibold">HackerRank</h3>
+                <p className="text-muted-foreground">NodeJS Certificate</p>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </section>
     </div>
